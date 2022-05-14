@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background: url("img.jpg");
+}
+div.main{
+    width: 500px;
+    margin: 80px auto 0px auto;
+}
+h2{
+    text-align:center;
+    padding: 20px;
+    font-family: fantasy;
+}
+div.register{
+    background-color: rgba(18, 77, 145, 0.231);
+    width: 100%;
+    font-size: 18px;
+    border-radius: 5px;
+    border: 1px solid black ;
+    box-shadow: 1px 1px 1px rgba(82, 136, 203, 0.689);
+}
+form#register{
+    margin: 80px;
+}
+label{
+    font-family: Arial, Helvetica, sans-serif;
+    font font-size: 18px;    
+}
+input#name{
+    width: 300px;
+    border: 1px solid rgba(29, 92, 227, 0.868);
+    border-radius: 3px;
+    padding: 8px;
+}
+input#submit{
+    width: 100px;
+    padding: 10px;
+    font-size: 12px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif ;
+    font-weight: bold;
+    border-radius: 2px;
+    background-color: rgba(85, 143, 250, 0.859);
+    cursor: pointer;
+    
+}
